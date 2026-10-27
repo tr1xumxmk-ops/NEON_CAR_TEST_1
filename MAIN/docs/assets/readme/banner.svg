@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">SPARK CAR Live Companion Edition</title>
+  <desc id="desc">Dark neon technology banner with cyan and magenta trace lines and a stylized robot companion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070914"/><stop offset=".55" stop-color="#10142a"/><stop offset="1" stop-color="#180c23"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172641"/><stop offset="1" stop-color="#111527"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#54eaff"/><stop offset="1" stop-color="#a8fff0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#58dfff" stroke-opacity=".09" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <path d="M0 244H360l24-24h130m300-147h100l22 22h264" fill="none" stroke="#54eaff" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M0 260h205l24 24h198m405-205h-73l-18 18h-70" fill="none" stroke="#ff4bc8" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="384" cy="220" r="4" fill="#54eaff" filter="url(#glow)"/><circle cx="922" cy="114" r="4" fill="#ff4bc8" filter="url(#glow)"/>
+  <text x="76" y="104" fill="#54eaff" font-family="Inter,Segoe UI,sans-serif" font-size="15" font-weight="800" letter-spacing="5">SPARK TEAM · ROBOTICS LAB</text>
+  <text x="72" y="166" fill="#f4f7ff" font-family="Inter,Segoe UI,sans-serif" font-size="47" font-weight="900" letter-spacing="2">SPARK CAR</text>
+  <text x="76" y="205" fill="#aeb9d9" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="600">LIVE COMPANION EDITION</text>
+  <g transform="translate(846 35)">
+    <path d="M106 7v25m-16-15h32" stroke="#c4ff55" stroke-width="4" stroke-linecap="round"/><circle cx="106" cy="6" r="6" fill="#ff4bc8" stroke="#54eaff" stroke-width="2"/>
+    <rect x="32" y="34" width="148" height="142" rx="42" fill="url(#face)" stroke="#54eaff" stroke-width="3"/>
+    <rect x="44" y="46" width="124" height="117" rx="32" fill="#0a1325" stroke="#385d7c" stroke-width="2"/>
+    <ellipse cx="77" cy="89" rx="12" ry="16" fill="#54eaff" filter="url(#glow)"/><ellipse cx="135" cy="89" rx="12" ry="16" fill="#ff70d5" filter="url(#glow)"/>
+    <circle cx="73" cy="83" r="4" fill="#fff"/><circle cx="131" cy="83" r="4" fill="#fff"/>
+    <path d="M76 121q30 27 60 0" fill="none" stroke="#c4ff55" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18 79H31M18 101H31M181 79h13M181 101h13" stroke="#9d80ff" stroke-width="4" stroke-linecap="round"/>
+    <rect x="55" y="187" width="102" height="29" rx="14" fill="#0d192d" stroke="#9d80ff" stroke-width="1.5"/><text x="106" y="206" text-anchor="middle" fill="#c9bbff" font-family="Inter,Segoe UI,sans-serif" font-size="11" font-weight="800" letter-spacing="2">ORBIT</text>
+  </g>
+  <g transform="translate(76 244)" fill="none" stroke-width="2"><rect width="154" height="34" rx="17" stroke="#54eaff" stroke-opacity=".7"/><rect x="164" width="154" height="34" rx="17" stroke="#ff4bc8" stroke-opacity=".7"/><rect x="328" width="154" height="34" rx="17" stroke="#9d80ff" stroke-opacity=".7"/></g>
+  <g font-family="Inter,Segoe UI,sans-serif" font-size="11" font-weight="800" letter-spacing="1.7" text-anchor="middle"><text x="153" y="265" fill="#54eaff">ESP32-S2</text><text x="393" y="265" fill="#ff7bd7">OFFLINE UI</text><text x="557" y="265" fill="#c4b6ff">20 AVATARS</text></g>
+</svg>

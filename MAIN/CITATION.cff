@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or build on SPARK CAR, please cite the project repository."
+title: "SPARK CAR — Live Companion Edition"
+version: 1.0.0
+date-released: 2026-10-27
+type: software
+authors:
+  - family-names: Nather
+    given-names: Haider
+  - family-names: Amjed
+    given-names: Ahmed
+  - family-names: Sayed
+    given-names: Ayat
+  - family-names: Fadhel
+    given-names: Baraa
+affiliation: "Al-Iraqia University, College of Engineering, Artificial Intelligence & Robotics Engineering"
+license: Apache-2.0
